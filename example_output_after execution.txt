@@ -1,0 +1,8 @@
+Model_1: Temp = w0 +w1*year  where, w0=-51.5693 and w1=0.0351911
+Temperature prediction for year:2022 and Montht:7 is 19.5872 (in degrees Celsius); estimated error on the predicted temperature ~ +-1.37935
+Temperature anomaly (Temp(year)-mean_Temp(1948-2018)) for year:2022 and month:7 is 1.37245+-1.37935 (in degrees Celsius)
+
+Model_2: Temp = w0 + w1*year^0.1 + w2*population^0.1 + w3*#_of_sunspots^0.1 + w4*CO2_Conc^0.1  where, w0=-5981.09 w1=3114.66 w2=31.2528 w3=-0.216492 w4=-425.749
+Warning: This is an overfitted model, don't use it for long term predictions (may be used for predictions up to year 2025, for longer term strictly use Model_1)
+Temperature prediction for year:2022 and Montht:7 is 20.8651 (in degrees Celsius)
+Temperature anomaly (Temp(year)-mean_Temp(1948-2018)) for year:2022 and month:7 is 2.65036 (in degrees Celsius)
